@@ -11,7 +11,6 @@ p = Path('C:/Windows')  # Windows
 q = p / 'notepad.exe'
 
 print(q)
-
 print(q.resolve())
 
 print(q.exists())
